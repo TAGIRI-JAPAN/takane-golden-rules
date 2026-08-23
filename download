@@ -1,0 +1,14 @@
+# 生成物（build_all.py で作り直せる）
+dist/
+src/*.pdf
+src/*.html
+src/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

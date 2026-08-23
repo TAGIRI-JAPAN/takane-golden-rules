@@ -1,0 +1,3025 @@
+{
+ "title": "TAKANE-SHIKI GOLDEN RULES",
+ "levels": [
+  "N5",
+  "N4"
+ ],
+ "total_units": 124,
+ "total_pages": 208,
+ "scene_tags": [
+  "仕事",
+  "友だち",
+  "学校",
+  "役所",
+  "文字",
+  "病院",
+  "買い物",
+  "道・交通",
+  "電話メール",
+  "面接",
+  "食事"
+ ],
+ "units": [
+  {
+   "no": "01",
+   "order": 1,
+   "chapter": "序章 文字",
+   "title_jp": "ひらがな",
+   "title_ro": "hiragana",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "文字"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 1,
+    "count": 1
+   },
+   "source": "data_01.py",
+   "stems": [
+    "u01_hiragana"
+   ]
+  },
+  {
+   "no": "02",
+   "order": 2,
+   "chapter": "序章 文字",
+   "title_jp": "カタカナ",
+   "title_ro": "katakana",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "文字"
+   ],
+   "prereq": [
+    "01"
+   ],
+   "pages": {
+    "start": 2,
+    "count": 1
+   },
+   "source": "data_02.py",
+   "stems": [
+    "u02_katakana"
+   ]
+  },
+  {
+   "no": "03",
+   "order": 3,
+   "chapter": "序章 文字",
+   "title_jp": "漢字（音読み・訓読み）",
+   "title_ro": "kanji — on-yomi",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "文字"
+   ],
+   "prereq": [
+    "01",
+    "02"
+   ],
+   "pages": {
+    "start": 3,
+    "count": 1
+   },
+   "source": "data_03.py",
+   "stems": [
+    "u03_kanji"
+   ]
+  },
+  {
+   "no": "04",
+   "order": 4,
+   "chapter": "第1章 基本の文",
+   "title_jp": "これは 〜です",
+   "title_ro": "Kore wa 〜 desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "買い物"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 4,
+    "count": 5
+   },
+   "source": "data_04.py",
+   "stems": [
+    "p04_1_kore",
+    "p04_2_negative",
+    "p04_3_question",
+    "p04_4_answer",
+    "p04_5_answer2"
+   ]
+  },
+  {
+   "no": "05",
+   "order": 5,
+   "chapter": "第1章 基本の文",
+   "title_jp": "私は 〜です",
+   "title_ro": "Watashi wa 〜 desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "学校",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 9,
+    "count": 5
+   },
+   "source": "data_05.py",
+   "stems": [
+    "p05_1_watashi",
+    "p05_2_negative",
+    "p05_3_question",
+    "p05_4_answer",
+    "p05_5_answer2"
+   ]
+  },
+  {
+   "no": "06",
+   "order": 6,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は …です",
+   "title_ro": "〜 wa … desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 14,
+    "count": 5
+   },
+   "source": "data_06.py",
+   "stems": [
+    "p06_1_wa_desu",
+    "p06_2_negative",
+    "p06_3_question",
+    "p06_4_answer",
+    "p06_5_answer2"
+   ]
+  },
+  {
+   "no": "07",
+   "order": 7,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は …です（2）",
+   "title_ro": "〜 wa … desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "友だち"
+   ],
+   "prereq": [
+    "06"
+   ],
+   "pages": {
+    "start": 19,
+    "count": 5
+   },
+   "source": "data_07.py",
+   "stems": [
+    "p07_1_wa_desu2",
+    "p07_2_negative",
+    "p07_3_question",
+    "p07_4_answer",
+    "p07_5_answer2"
+   ]
+  },
+  {
+   "no": "08",
+   "order": 8,
+   "chapter": "第1章 基本の文",
+   "title_jp": "こそあど ことば",
+   "title_ro": "ko-so-a-do words",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "道・交通",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 24,
+    "count": 1
+   },
+   "source": "data_08.py",
+   "stems": [
+    "u08_kosoado"
+   ]
+  },
+  {
+   "no": "09",
+   "order": 9,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は …に います",
+   "title_ro": "〜 wa … ni imasu / 〜 ga imasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 25,
+    "count": 5
+   },
+   "source": "data_09.py",
+   "stems": [
+    "p09_1_imasu",
+    "p09_2_negative",
+    "p09_3_question",
+    "p09_4_answer",
+    "p09_5_answer2"
+   ]
+  },
+  {
+   "no": "10",
+   "order": 10,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は …に あります",
+   "title_ro": "〜 wa … ni arimasu / 〜 ga arimasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "買い物"
+   ],
+   "prereq": [
+    "09"
+   ],
+   "pages": {
+    "start": 30,
+    "count": 5
+   },
+   "source": "data_10.py",
+   "stems": [
+    "p10_1_arimasu",
+    "p10_2_negative",
+    "p10_3_question",
+    "p10_4_answer",
+    "p10_5_answer2"
+   ]
+  },
+  {
+   "no": "11",
+   "order": 11,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜します",
+   "title_ro": "〜 shimasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 35,
+    "count": 5
+   },
+   "source": "data_11.py",
+   "stems": [
+    "p11_1_shimasu",
+    "p11_2_negative",
+    "p11_3_question",
+    "p11_4_answer",
+    "p11_5_answer2"
+   ]
+  },
+  {
+   "no": "12",
+   "order": 12,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜したいです",
+   "title_ro": "〜 shitai desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "07"
+   ],
+   "pages": {
+    "start": 40,
+    "count": 5
+   },
+   "source": "data_12.py",
+   "stems": [
+    "p12_1_shitai",
+    "p12_2_negative",
+    "p12_3_question",
+    "p12_4_answer",
+    "p12_5_answer2"
+   ]
+  },
+  {
+   "no": "13",
+   "order": 13,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜しました",
+   "title_ro": "〜 shimashita",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "学校",
+    "友だち"
+   ],
+   "prereq": [
+    "11"
+   ],
+   "pages": {
+    "start": 45,
+    "count": 5
+   },
+   "source": "data_13.py",
+   "stems": [
+    "p13_1_shimashita",
+    "p13_2_negative",
+    "p13_3_question",
+    "p13_4_answer",
+    "p13_5_answer2"
+   ]
+  },
+  {
+   "no": "14",
+   "order": 14,
+   "chapter": "第1章 基本の文",
+   "title_jp": "もう 〜しました",
+   "title_ro": "mou 〜 shimashita",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "13"
+   ],
+   "pages": {
+    "start": 50,
+    "count": 5
+   },
+   "source": "data_14.py",
+   "stems": [
+    "p14_1_mou",
+    "p14_2_negative",
+    "p14_3_question",
+    "p14_4_answer",
+    "p14_5_answer2"
+   ]
+  },
+  {
+   "no": "15",
+   "order": 15,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜しています（1）",
+   "title_ro": "〜 shite imasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校",
+    "電話メール"
+   ],
+   "prereq": [
+    "09",
+    "10",
+    "11"
+   ],
+   "pages": {
+    "start": 55,
+    "count": 5
+   },
+   "source": "data_15.py",
+   "stems": [
+    "p15_1_shiteimasu",
+    "p15_2_negative",
+    "p15_3_question",
+    "p15_4_answer",
+    "p15_5_answer2"
+   ]
+  },
+  {
+   "no": "16",
+   "order": 16,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜しています（2）",
+   "title_ro": "〜 shite imasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [
+    "15"
+   ],
+   "pages": {
+    "start": 60,
+    "count": 5
+   },
+   "source": "data_16.py",
+   "stems": [
+    "p16_1_joutai",
+    "p16_2_negative",
+    "p16_3_question",
+    "p16_4_answer",
+    "p16_5_answer2"
+   ]
+  },
+  {
+   "no": "17",
+   "order": 17,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜した ことが あります",
+   "title_ro": "〜 shita koto ga arimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち"
+   ],
+   "prereq": [
+    "10",
+    "15"
+   ],
+   "pages": {
+    "start": 65,
+    "count": 5
+   },
+   "source": "data_17.py",
+   "stems": [
+    "p17_1_keiken",
+    "p17_2_negative",
+    "p17_3_question",
+    "p17_4_answer",
+    "p17_5_answer2"
+   ]
+  },
+  {
+   "no": "18",
+   "order": 18,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜（する ことが）できます",
+   "title_ro": "〜 (suru koto ga) dekimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 70,
+    "count": 5
+   },
+   "source": "data_18.py",
+   "stems": [
+    "p18_1_dekimasu",
+    "p18_2_negative",
+    "p18_3_question",
+    "p18_4_answer",
+    "p18_5_answer2"
+   ]
+  },
+  {
+   "no": "19",
+   "order": 19,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜しても いいです",
+   "title_ro": "〜 shitemo ii desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校",
+    "病院"
+   ],
+   "prereq": [
+    "15"
+   ],
+   "pages": {
+    "start": 75,
+    "count": 5
+   },
+   "source": "data_19.py",
+   "stems": [
+    "p19_1_temoii",
+    "p19_2_negative",
+    "p19_3_question",
+    "p19_4_answer",
+    "p19_5_answer2"
+   ]
+  },
+  {
+   "no": "20",
+   "order": 20,
+   "chapter": "第1章 基本の文",
+   "title_jp": "助詞の つかい分け",
+   "title_ro": "particles",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校"
+   ],
+   "prereq": [
+    "01"
+   ],
+   "pages": {
+    "start": 80,
+    "count": 1
+   },
+   "source": "data_20.py",
+   "stems": [
+    "u20_joshi"
+   ]
+  },
+  {
+   "no": "21",
+   "order": 21,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は 何ですか？",
+   "title_ro": "〜 wa nan desu ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "学校"
+   ],
+   "prereq": [
+    "11",
+    "12",
+    "13",
+    "15"
+   ],
+   "pages": {
+    "start": 81,
+    "count": 5
+   },
+   "source": "data_21.py",
+   "stems": [
+    "p21_1_nan",
+    "p21_2_verbs",
+    "p21_3_past",
+    "p21_4_answer",
+    "p21_5_answer2"
+   ]
+  },
+  {
+   "no": "22",
+   "order": 22,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は 誰ですか？",
+   "title_ro": "〜 wa dare desu ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [
+    "13",
+    "21"
+   ],
+   "pages": {
+    "start": 86,
+    "count": 5
+   },
+   "source": "data_22.py",
+   "stems": [
+    "p22_1_dare",
+    "p22_2_verbs",
+    "p22_3_past",
+    "p22_4_answer",
+    "p22_5_answer2"
+   ]
+  },
+  {
+   "no": "23",
+   "order": 23,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は どこですか？",
+   "title_ro": "〜 wa doko desu ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通",
+    "買い物"
+   ],
+   "prereq": [
+    "13",
+    "21"
+   ],
+   "pages": {
+    "start": 91,
+    "count": 5
+   },
+   "source": "data_23.py",
+   "stems": [
+    "p23_1_doko",
+    "p23_2_verbs",
+    "p23_3_past",
+    "p23_4_answer",
+    "p23_5_answer2"
+   ]
+  },
+  {
+   "no": "24",
+   "order": 24,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は いつですか？",
+   "title_ro": "〜 wa itsu desu ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事",
+    "役所"
+   ],
+   "prereq": [
+    "21",
+    "22"
+   ],
+   "pages": {
+    "start": 96,
+    "count": 5
+   },
+   "source": "data_24.py",
+   "stems": [
+    "p24_1_itsu",
+    "p24_2_verbs",
+    "p24_3_past",
+    "p24_4_answer",
+    "p24_5_answer2"
+   ]
+  },
+  {
+   "no": "25",
+   "order": 25,
+   "chapter": "第1章 基本の文",
+   "title_jp": "数字の よみ方",
+   "title_ro": "numbers",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "仕事",
+    "役所"
+   ],
+   "prereq": [
+    "24"
+   ],
+   "pages": {
+    "start": 101,
+    "count": 1
+   },
+   "source": "data_25.py",
+   "stems": [
+    "u25_suuji"
+   ]
+  },
+  {
+   "no": "26",
+   "order": 26,
+   "chapter": "第1章 基本の文",
+   "title_jp": "時間・日づけ・曜日・季節",
+   "title_ro": "time, dates, days",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校",
+    "役所"
+   ],
+   "prereq": [
+    "24",
+    "25"
+   ],
+   "pages": {
+    "start": 102,
+    "count": 1
+   },
+   "source": "data_26.py",
+   "stems": [
+    "u26_jikan"
+   ]
+  },
+  {
+   "no": "27",
+   "order": 27,
+   "chapter": "第1章 基本の文",
+   "title_jp": "ものの かぞえ方",
+   "title_ro": "counters",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "25"
+   ],
+   "pages": {
+    "start": 103,
+    "count": 1
+   },
+   "source": "data_27.py",
+   "stems": [
+    "u27_josuushi"
+   ]
+  },
+  {
+   "no": "28",
+   "order": 28,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜は どうですか？",
+   "title_ro": "〜 wa dou desu ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "食事",
+    "買い物"
+   ],
+   "prereq": [
+    "06",
+    "07",
+    "21"
+   ],
+   "pages": {
+    "start": 104,
+    "count": 5
+   },
+   "source": "data_28.py",
+   "stems": [
+    "p28_1_dou",
+    "p28_2_susumeru",
+    "p28_3_past",
+    "p28_4_answer",
+    "p28_5_answer2"
+   ]
+  },
+  {
+   "no": "29",
+   "order": 29,
+   "chapter": "第1章 基本の文",
+   "title_jp": "どうして 〜？",
+   "title_ro": "doushite 〜 ? / naze 〜 ?",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [
+    "12",
+    "17",
+    "19"
+   ],
+   "pages": {
+    "start": 109,
+    "count": 5
+   },
+   "source": "data_29.py",
+   "stems": [
+    "p29_1_doushite",
+    "p29_2_negative",
+    "p29_3_past",
+    "p29_4_answer",
+    "p29_5_answer2"
+   ]
+  },
+  {
+   "no": "30",
+   "order": 30,
+   "chapter": "第1章 基本の文",
+   "title_jp": "〜んです",
+   "title_ro": "〜 n desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "病院",
+    "仕事",
+    "役所"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 114,
+    "count": 1
+   },
+   "source": "data_30.py",
+   "stems": [
+    "u30_ndesu"
+   ]
+  },
+  {
+   "no": "31",
+   "order": 31,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "おめでとうございます",
+   "title_ro": "〜 omedetou",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 115,
+    "count": 1
+   },
+   "source": "data_31.py",
+   "stems": [
+    "p31_omedetou"
+   ]
+  },
+  {
+   "no": "32",
+   "order": 32,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "ありがとうございます",
+   "title_ro": "〜 arigatou",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 116,
+    "count": 1
+   },
+   "source": "data_32.py",
+   "stems": [
+    "p32_arigatou"
+   ]
+  },
+  {
+   "no": "33",
+   "order": 33,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜して くれて ありがとう",
+   "title_ro": "〜 shite kurete arigatou",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [
+    "15"
+   ],
+   "pages": {
+    "start": 117,
+    "count": 1
+   },
+   "source": "data_33.py",
+   "stems": [
+    "p33_kurete"
+   ]
+  },
+  {
+   "no": "34",
+   "order": 34,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "あげます／もらいます／くれます",
+   "title_ro": "agemasu / moraimasu / kuremasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "33"
+   ],
+   "pages": {
+    "start": 118,
+    "count": 1
+   },
+   "source": "data_34.py",
+   "stems": [
+    "u34_ageru"
+   ]
+  },
+  {
+   "no": "35",
+   "order": 35,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜て あげます／〜て くれます／〜て もらいます",
+   "title_ro": "te agemasu / kuremasu / moraimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [
+    "34"
+   ],
+   "pages": {
+    "start": 119,
+    "count": 1
+   },
+   "source": "data_35.py",
+   "stems": [
+    "u35_teageru"
+   ]
+  },
+  {
+   "no": "36",
+   "order": 36,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "ごめんなさい",
+   "title_ro": "",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 120,
+    "count": 1
+   },
+   "source": "data_36.py",
+   "stems": [
+    "p36_gomennasai"
+   ]
+  },
+  {
+   "no": "37",
+   "order": 37,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜しませんか？",
+   "title_ro": "〜 shimasen ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "食事"
+   ],
+   "prereq": [
+    "12"
+   ],
+   "pages": {
+    "start": 121,
+    "count": 1
+   },
+   "source": "data_37.py",
+   "stems": [
+    "p37_shimasenka"
+   ]
+  },
+  {
+   "no": "38",
+   "order": 38,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜しましょうか？",
+   "title_ro": "〜 shimashou ka",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [
+    "37"
+   ],
+   "pages": {
+    "start": 122,
+    "count": 1
+   },
+   "source": "data_38.py",
+   "stems": [
+    "p38_shimashouka"
+   ]
+  },
+  {
+   "no": "39",
+   "order": 39,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜と 思います",
+   "title_ro": "〜 to omoimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 123,
+    "count": 1
+   },
+   "source": "data_39.py",
+   "stems": [
+    "p39_toomoimasu"
+   ]
+  },
+  {
+   "no": "40",
+   "order": 40,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜か／〜か どうか",
+   "title_ro": "〜 ka / 〜 ka dou ka",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "電話メール"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 124,
+    "count": 1
+   },
+   "source": "data_40.py",
+   "stems": [
+    "u40_kadouka"
+   ]
+  },
+  {
+   "no": "41",
+   "order": 41,
+   "chapter": "第2章 きもちを つたえる",
+   "title_jp": "〜と いいですね",
+   "title_ro": "〜 to ii desu ne",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "39"
+   ],
+   "pages": {
+    "start": 125,
+    "count": 1
+   },
+   "source": "data_41.py",
+   "stems": [
+    "p41_toiidesune"
+   ]
+  },
+  {
+   "no": "42",
+   "order": 42,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜が 好きです",
+   "title_ro": "〜 ga suki desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち",
+    "食事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 126,
+    "count": 1
+   },
+   "source": "data_42.py",
+   "stems": [
+    "p42_gasuki"
+   ]
+  },
+  {
+   "no": "43",
+   "order": 43,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜が ほしいです",
+   "title_ro": "〜 ga hoshii desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "面接"
+   ],
+   "prereq": [
+    "42"
+   ],
+   "pages": {
+    "start": 127,
+    "count": 1
+   },
+   "source": "data_43.py",
+   "stems": [
+    "p43_gahoshii"
+   ]
+  },
+  {
+   "no": "44",
+   "order": 44,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜が 必要です",
+   "title_ro": "〜 ga hitsuyou desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "役所"
+   ],
+   "prereq": [
+    "43"
+   ],
+   "pages": {
+    "start": 128,
+    "count": 1
+   },
+   "source": "data_44.py",
+   "stems": [
+    "p44_hitsuyou"
+   ]
+  },
+  {
+   "no": "45",
+   "order": 45,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜が 得意です／苦手です",
+   "title_ro": "〜 ga tokui / nigate desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [
+    "42"
+   ],
+   "pages": {
+    "start": 129,
+    "count": 1
+   },
+   "source": "data_45.py",
+   "stems": [
+    "p45_tokui_nigate"
+   ]
+  },
+  {
+   "no": "46",
+   "order": 46,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜しやすいです",
+   "title_ro": "〜 shiyasui desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "買い物",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 130,
+    "count": 1
+   },
+   "source": "data_46.py",
+   "stems": [
+    "p46_shiyasui"
+   ]
+  },
+  {
+   "no": "47",
+   "order": 47,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜しづらいです",
+   "title_ro": "〜 shizurai / shinikui desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "買い物",
+    "仕事"
+   ],
+   "prereq": [
+    "46"
+   ],
+   "pages": {
+    "start": 131,
+    "count": 1
+   },
+   "source": "data_47.py",
+   "stems": [
+    "p47_shizurai"
+   ]
+  },
+  {
+   "no": "48",
+   "order": 48,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "…より 〜です",
+   "title_ro": "... yori 〜 desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 132,
+    "count": 1
+   },
+   "source": "data_48.py",
+   "stems": [
+    "p48_yori"
+   ]
+  },
+  {
+   "no": "49",
+   "order": 49,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "…より 〜の ほうが 〜です",
+   "title_ro": "... yori 〜 no hou ga 〜 desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "道・交通"
+   ],
+   "prereq": [
+    "48"
+   ],
+   "pages": {
+    "start": 133,
+    "count": 1
+   },
+   "source": "data_49.py",
+   "stems": [
+    "u49_houga"
+   ]
+  },
+  {
+   "no": "50",
+   "order": 50,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜した ほうが いいです",
+   "title_ro": "〜 shita hou ga ii desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "病院",
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [
+    "49"
+   ],
+   "pages": {
+    "start": 134,
+    "count": 1
+   },
+   "source": "data_50.py",
+   "stems": [
+    "u50_hougaii"
+   ]
+  },
+  {
+   "no": "51",
+   "order": 51,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜が いちばん 〜です",
+   "title_ro": "〜 ga ichiban 〜 desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "48"
+   ],
+   "pages": {
+    "start": 135,
+    "count": 1
+   },
+   "source": "data_51.py",
+   "stems": [
+    "u51_ichiban"
+   ]
+  },
+  {
+   "no": "52",
+   "order": 52,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜すぎます",
+   "title_ro": "〜 sugimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 136,
+    "count": 1
+   },
+   "source": "data_52.py",
+   "stems": [
+    "p52_sugimasu"
+   ]
+  },
+  {
+   "no": "53",
+   "order": 53,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜く なります／〜に なります",
+   "title_ro": "〜 ku narimasu / 〜 ni narimasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "21"
+   ],
+   "pages": {
+    "start": 137,
+    "count": 1
+   },
+   "source": "data_53.py",
+   "stems": [
+    "u53_narimasu"
+   ]
+  },
+  {
+   "no": "54",
+   "order": 54,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜に します／〜く します",
+   "title_ro": "〜 ni shimasu / 〜 ku shimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "53"
+   ],
+   "pages": {
+    "start": 138,
+    "count": 1
+   },
+   "source": "data_54.py",
+   "stems": [
+    "u54_nishimasu"
+   ]
+  },
+  {
+   "no": "55",
+   "order": 55,
+   "chapter": "第3章 すき・くらべる",
+   "title_jp": "〜ように なります／〜ように します",
+   "title_ro": "〜 you ni narimasu / shimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 139,
+    "count": 1
+   },
+   "source": "data_55.py",
+   "stems": [
+    "u55_youni"
+   ]
+  },
+  {
+   "no": "56",
+   "order": 56,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜と 言って いました",
+   "title_ro": "〜 to itte imashita",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "電話メール"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 140,
+    "count": 1
+   },
+   "source": "data_56.py",
+   "stems": [
+    "u56_toitte"
+   ]
+  },
+  {
+   "no": "57",
+   "order": 57,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜だそうです",
+   "title_ro": "〜 da sou desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [
+    "39"
+   ],
+   "pages": {
+    "start": 141,
+    "count": 1
+   },
+   "source": "data_57.py",
+   "stems": [
+    "p57_dasoudesu"
+   ]
+  },
+  {
+   "no": "58",
+   "order": 58,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜らしいです",
+   "title_ro": "〜 rashii desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "57"
+   ],
+   "pages": {
+    "start": 142,
+    "count": 1
+   },
+   "source": "data_58.py",
+   "stems": [
+    "p58_rashii"
+   ]
+  },
+  {
+   "no": "59",
+   "order": 59,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜のようです",
+   "title_ro": "〜 no you desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "57",
+    "58"
+   ],
+   "pages": {
+    "start": 143,
+    "count": 1
+   },
+   "source": "data_59.py",
+   "stems": [
+    "p59_noyoudesu"
+   ]
+  },
+  {
+   "no": "60",
+   "order": 60,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜そうです（ようす）",
+   "title_ro": "〜 sou desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通"
+   ],
+   "prereq": [
+    "57"
+   ],
+   "pages": {
+    "start": 144,
+    "count": 1
+   },
+   "source": "data_60.py",
+   "stems": [
+    "p60_sou_yousu"
+   ]
+  },
+  {
+   "no": "61",
+   "order": 61,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜しそうです（もうすぐ）",
+   "title_ro": "〜 shisou desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通",
+    "仕事"
+   ],
+   "prereq": [
+    "60"
+   ],
+   "pages": {
+    "start": 145,
+    "count": 1
+   },
+   "source": "data_61.py",
+   "stems": [
+    "p61_shisou"
+   ]
+  },
+  {
+   "no": "62",
+   "order": 62,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "たぶん 〜でしょう",
+   "title_ro": "tabun 〜 deshou",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 146,
+    "count": 1
+   },
+   "source": "data_62.py",
+   "stems": [
+    "p62_tabun"
+   ]
+  },
+  {
+   "no": "63",
+   "order": 63,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "きっと 〜",
+   "title_ro": "kitto 〜",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [
+    "62"
+   ],
+   "pages": {
+    "start": 147,
+    "count": 1
+   },
+   "source": "data_63.py",
+   "stems": [
+    "p63_kitto"
+   ]
+  },
+  {
+   "no": "64",
+   "order": 64,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜する はずです",
+   "title_ro": "〜 suru hazu desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 148,
+    "count": 1
+   },
+   "source": "data_64.py",
+   "stems": [
+    "p64_hazudesu"
+   ]
+  },
+  {
+   "no": "65",
+   "order": 65,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜かもしれません",
+   "title_ro": "〜 kamo shiremasen",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [
+    "58",
+    "64"
+   ],
+   "pages": {
+    "start": 149,
+    "count": 1
+   },
+   "source": "data_65.py",
+   "stems": [
+    "p65_kamoshiremasen"
+   ]
+  },
+  {
+   "no": "66",
+   "order": 66,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜する つもりです",
+   "title_ro": "〜 suru tsumori desu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち"
+   ],
+   "prereq": [
+    "64"
+   ],
+   "pages": {
+    "start": 150,
+    "count": 1
+   },
+   "source": "data_66.py",
+   "stems": [
+    "p66_tsumori"
+   ]
+  },
+  {
+   "no": "67",
+   "order": 67,
+   "chapter": "第4章 ようす・すいそく",
+   "title_jp": "〜して しまいました",
+   "title_ro": "〜 shite shimaimashita",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 151,
+    "count": 1
+   },
+   "source": "data_67.py",
+   "stems": [
+    "p67_shimaimashita"
+   ]
+  },
+  {
+   "no": "68",
+   "order": 68,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "前は 〜しました",
+   "title_ro": "Mae wa 〜 shimashita / shite imashita",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 152,
+    "count": 1
+   },
+   "source": "data_68.py",
+   "stems": [
+    "p68_maewa"
+   ]
+  },
+  {
+   "no": "69",
+   "order": 69,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "よく 〜します",
+   "title_ro": "yoku 〜 shimasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 153,
+    "count": 1
+   },
+   "source": "data_69.py",
+   "stems": [
+    "p69_yoku"
+   ]
+  },
+  {
+   "no": "70",
+   "order": 70,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜した ところです",
+   "title_ro": "〜 shita tokoro desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 154,
+    "count": 1
+   },
+   "source": "data_70.py",
+   "stems": [
+    "p70_tokorodesu"
+   ]
+  },
+  {
+   "no": "71",
+   "order": 71,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜して から／まえに／あとで",
+   "title_ro": "〜 te kara / 〜 mae ni / 〜 ta ato de",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 155,
+    "count": 1
+   },
+   "source": "data_71.py",
+   "stems": [
+    "u71_junjo"
+   ]
+  },
+  {
+   "no": "72",
+   "order": 72,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜とき、〜",
+   "title_ro": "〜 toki, 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 156,
+    "count": 1
+   },
+   "source": "data_72.py",
+   "stems": [
+    "u72_toki"
+   ]
+  },
+  {
+   "no": "73",
+   "order": 73,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜あいだに／〜までに",
+   "title_ro": "〜 aida ni / 〜 made ni",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 157,
+    "count": 1
+   },
+   "source": "data_73.py",
+   "stems": [
+    "u73_aidani"
+   ]
+  },
+  {
+   "no": "74",
+   "order": 74,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜ながら 〜します",
+   "title_ro": "〜 nagara 〜 shimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 158,
+    "count": 1
+   },
+   "source": "data_74.py",
+   "stems": [
+    "u74_nagara"
+   ]
+  },
+  {
+   "no": "75",
+   "order": 75,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜て、〜（文を つなぐ）",
+   "title_ro": "〜 te, 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 159,
+    "count": 1
+   },
+   "source": "data_75.py",
+   "stems": [
+    "u75_tekei"
+   ]
+  },
+  {
+   "no": "76",
+   "order": 76,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜ないで、〜／〜ずに",
+   "title_ro": "〜 naide / 〜 zu ni",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 160,
+    "count": 1
+   },
+   "source": "data_76.py",
+   "stems": [
+    "u76_naide"
+   ]
+  },
+  {
+   "no": "77",
+   "order": 77,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜とおりに 〜",
+   "title_ro": "〜 toori ni",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 161,
+    "count": 1
+   },
+   "source": "data_77.py",
+   "stems": [
+    "u77_toorini"
+   ]
+  },
+  {
+   "no": "78",
+   "order": 78,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜ので、〜",
+   "title_ro": "〜 node",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "病院"
+   ],
+   "prereq": [
+    "29"
+   ],
+   "pages": {
+    "start": 162,
+    "count": 1
+   },
+   "source": "data_78.py",
+   "stems": [
+    "u78_node"
+   ]
+  },
+  {
+   "no": "79",
+   "order": 79,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜のに、〜",
+   "title_ro": "〜 noni",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "買い物",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 163,
+    "count": 1
+   },
+   "source": "data_79.py",
+   "stems": [
+    "u79_noni"
+   ]
+  },
+  {
+   "no": "80",
+   "order": 80,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜し、〜し",
+   "title_ro": "〜 shi, 〜 shi",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "病院"
+   ],
+   "prereq": [
+    "75"
+   ],
+   "pages": {
+    "start": 164,
+    "count": 1
+   },
+   "source": "data_80.py",
+   "stems": [
+    "u80_shi"
+   ]
+  },
+  {
+   "no": "81",
+   "order": 81,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜たり 〜たり します",
+   "title_ro": "〜 tari 〜 tari shimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 165,
+    "count": 1
+   },
+   "source": "data_81.py",
+   "stems": [
+    "u81_taritari"
+   ]
+  },
+  {
+   "no": "82",
+   "order": 82,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜たら 〜",
+   "title_ro": "〜 tara 〜",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通",
+    "仕事"
+   ],
+   "prereq": [
+    "32"
+   ],
+   "pages": {
+    "start": 166,
+    "count": 1
+   },
+   "source": "data_82.py",
+   "stems": [
+    "u82_tara"
+   ]
+  },
+  {
+   "no": "83",
+   "order": 83,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜と、〜",
+   "title_ro": "〜 to, 〜",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通",
+    "仕事"
+   ],
+   "prereq": [
+    "82"
+   ],
+   "pages": {
+    "start": 167,
+    "count": 1
+   },
+   "source": "data_83.py",
+   "stems": [
+    "u83_to_jouken"
+   ]
+  },
+  {
+   "no": "84",
+   "order": 84,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜ば、〜",
+   "title_ro": "〜 ba, 〜",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "82"
+   ],
+   "pages": {
+    "start": 168,
+    "count": 1
+   },
+   "source": "data_84.py",
+   "stems": [
+    "u84_ba"
+   ]
+  },
+  {
+   "no": "85",
+   "order": 85,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜なら、〜",
+   "title_ro": "〜 nara, 〜",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "友だち"
+   ],
+   "prereq": [
+    "82",
+    "83",
+    "84"
+   ],
+   "pages": {
+    "start": 169,
+    "count": 1
+   },
+   "source": "data_85.py",
+   "stems": [
+    "u85_nara"
+   ]
+  },
+  {
+   "no": "86",
+   "order": 86,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜ても、〜",
+   "title_ro": "〜 temo",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [
+    "85"
+   ],
+   "pages": {
+    "start": 170,
+    "count": 1
+   },
+   "source": "data_86.py",
+   "stems": [
+    "u86_temo"
+   ]
+  },
+  {
+   "no": "87",
+   "order": 87,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "〜が、〜／〜けど、〜",
+   "title_ro": "〜 ga / 〜 kedo",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 171,
+    "count": 1
+   },
+   "source": "data_87.py",
+   "stems": [
+    "u87_gakedo"
+   ]
+  },
+  {
+   "no": "88",
+   "order": 88,
+   "chapter": "第5章 時・文を つなぐ",
+   "title_jp": "つなぎことば（そして・でも・だから）",
+   "title_ro": "connecting words",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校",
+    "電話メール"
+   ],
+   "prereq": [
+    "29",
+    "78",
+    "87"
+   ],
+   "pages": {
+    "start": 172,
+    "count": 1
+   },
+   "source": "data_88.py",
+   "stems": [
+    "u88_setsuzoku"
+   ]
+  },
+  {
+   "no": "89",
+   "order": 89,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "可能形（〜えます／〜られます）",
+   "title_ro": "potential form",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [
+    "18"
+   ],
+   "pages": {
+    "start": 173,
+    "count": 1
+   },
+   "source": "data_89.py",
+   "stems": [
+    "u89_kanou"
+   ]
+  },
+  {
+   "no": "90",
+   "order": 90,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "意向形（〜よう）＋と 思って います",
+   "title_ro": "volitional + to omotte imasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち"
+   ],
+   "prereq": [
+    "57"
+   ],
+   "pages": {
+    "start": 174,
+    "count": 1
+   },
+   "source": "data_90.py",
+   "stems": [
+    "u90_ikou"
+   ]
+  },
+  {
+   "no": "91",
+   "order": 91,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "命令形・禁止形",
+   "title_ro": "imperative",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "道・交通",
+    "仕事"
+   ],
+   "prereq": [
+    "69",
+    "72"
+   ],
+   "pages": {
+    "start": 175,
+    "count": 1
+   },
+   "source": "data_91.py",
+   "stems": [
+    "u91_meirei"
+   ]
+  },
+  {
+   "no": "92",
+   "order": 92,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "自動詞・他動詞",
+   "title_ro": "intransitive",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "16",
+    "20"
+   ],
+   "pages": {
+    "start": 176,
+    "count": 1
+   },
+   "source": "data_92.py",
+   "stems": [
+    "u92_jitadoushi"
+   ]
+  },
+  {
+   "no": "93",
+   "order": 93,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜て おきます",
+   "title_ro": "〜 te okimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "78"
+   ],
+   "pages": {
+    "start": 177,
+    "count": 1
+   },
+   "source": "data_93.py",
+   "stems": [
+    "u93_teoku"
+   ]
+  },
+  {
+   "no": "94",
+   "order": 94,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜て あります",
+   "title_ro": "〜 te arimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事"
+   ],
+   "prereq": [
+    "16",
+    "92",
+    "93"
+   ],
+   "pages": {
+    "start": 178,
+    "count": 1
+   },
+   "source": "data_94.py",
+   "stems": [
+    "u94_tearu"
+   ]
+  },
+  {
+   "no": "95",
+   "order": 95,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜て いきます／〜て きます",
+   "title_ro": "〜 te ikimasu / te kimasu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "友だち"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 179,
+    "count": 1
+   },
+   "source": "data_95.py",
+   "stems": [
+    "u95_teiku"
+   ]
+  },
+  {
+   "no": "96",
+   "order": 96,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜はじめます／〜おわります／〜つづけます",
+   "title_ro": "hajimemasu / owarimasu / tsuzukemasu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [
+    "42",
+    "46"
+   ],
+   "pages": {
+    "start": 180,
+    "count": 1
+   },
+   "source": "data_96.py",
+   "stems": [
+    "u96_fukugou"
+   ]
+  },
+  {
+   "no": "97",
+   "order": 97,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "名詞に する（〜こと・〜の・〜方・〜さ）",
+   "title_ro": "making nouns",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "友だち"
+   ],
+   "prereq": [
+    "06",
+    "42"
+   ],
+   "pages": {
+    "start": 181,
+    "count": 1
+   },
+   "source": "data_97.py",
+   "stems": [
+    "u97_meishika"
+   ]
+  },
+  {
+   "no": "98",
+   "order": 98,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜ために／〜に 行きます",
+   "title_ro": "〜 tame ni / 〜 ni ikimasu",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 182,
+    "count": 1
+   },
+   "source": "data_98.py",
+   "stems": [
+    "u98_tameni"
+   ]
+  },
+  {
+   "no": "99",
+   "order": 99,
+   "chapter": "第6章 動詞の かたち",
+   "title_jp": "〜しか ありません",
+   "title_ro": "〜 shika arimasen",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 183,
+    "count": 1
+   },
+   "source": "data_99.py",
+   "stems": [
+    "u99_shika"
+   ]
+  },
+  {
+   "no": "100",
+   "order": 100,
+   "chapter": "第7章 する・させる・される",
+   "title_jp": "〜させます",
+   "title_ro": "〜 sasemasu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 184,
+    "count": 1
+   },
+   "source": "data_100.py",
+   "stems": [
+    "p100_sasemasu"
+   ]
+  },
+  {
+   "no": "101",
+   "order": 101,
+   "chapter": "第7章 する・させる・される",
+   "title_jp": "〜させて ください",
+   "title_ro": "〜 sasete kudasai",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "100"
+   ],
+   "pages": {
+    "start": 185,
+    "count": 1
+   },
+   "source": "data_101.py",
+   "stems": [
+    "p101_sasetekudasai"
+   ]
+  },
+  {
+   "no": "102",
+   "order": 102,
+   "chapter": "第7章 する・させる・される",
+   "title_jp": "〜されました（うけみ）",
+   "title_ro": "〜 saremashita",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "100"
+   ],
+   "pages": {
+    "start": 186,
+    "count": 1
+   },
+   "source": "data_102.py",
+   "stems": [
+    "p102_saremashita"
+   ]
+  },
+  {
+   "no": "103",
+   "order": 103,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜しなさい",
+   "title_ro": "〜 shinasai",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 187,
+    "count": 1
+   },
+   "source": "data_103.py",
+   "stems": [
+    "p103_shinasai"
+   ]
+  },
+  {
+   "no": "104",
+   "order": 104,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜、お願いします",
+   "title_ro": "〜, onegai shimasu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 188,
+    "count": 1
+   },
+   "source": "data_104.py",
+   "stems": [
+    "p104_onegaishimasu"
+   ]
+  },
+  {
+   "no": "105",
+   "order": 105,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜を ください",
+   "title_ro": "〜 wo kudasai",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事"
+   ],
+   "prereq": [
+    "104"
+   ],
+   "pages": {
+    "start": 189,
+    "count": 1
+   },
+   "source": "data_105.py",
+   "stems": [
+    "p105_wokudasai"
+   ]
+  },
+  {
+   "no": "106",
+   "order": 106,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜して ください",
+   "title_ro": "〜 shite kudasai",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "仕事",
+    "病院"
+   ],
+   "prereq": [
+    "103",
+    "105"
+   ],
+   "pages": {
+    "start": 190,
+    "count": 1
+   },
+   "source": "data_106.py",
+   "stems": [
+    "p106_shitekudasai"
+   ]
+  },
+  {
+   "no": "107",
+   "order": 107,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜して いただけませんか？",
+   "title_ro": "〜 shite itadakemasen ka",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事",
+    "役所"
+   ],
+   "prereq": [
+    "103",
+    "106"
+   ],
+   "pages": {
+    "start": 191,
+    "count": 1
+   },
+   "source": "data_107.py",
+   "stems": [
+    "p107_itadakemasenka"
+   ]
+  },
+  {
+   "no": "108",
+   "order": 108,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜して みて ください",
+   "title_ro": "〜 shite mite (kudasai)",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "買い物"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 192,
+    "count": 1
+   },
+   "source": "data_108.py",
+   "stems": [
+    "p108_shitemite"
+   ]
+  },
+  {
+   "no": "109",
+   "order": 109,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜しないで ください",
+   "title_ro": "〜 shinaide (kudasai)",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 193,
+    "count": 1
+   },
+   "source": "data_109.py",
+   "stems": [
+    "p109_shinaide"
+   ]
+  },
+  {
+   "no": "110",
+   "order": 110,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜しては いけません",
+   "title_ro": "〜 shite wa ikemasen",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校"
+   ],
+   "prereq": [
+    "109"
+   ],
+   "pages": {
+    "start": 194,
+    "count": 1
+   },
+   "source": "data_110.py",
+   "stems": [
+    "p110_shitewaikemasen"
+   ]
+  },
+  {
+   "no": "111",
+   "order": 111,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "〜なければ なりません",
+   "title_ro": "〜 nakereba narimasen",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "学校",
+    "役所"
+   ],
+   "prereq": [
+    "19",
+    "110"
+   ],
+   "pages": {
+    "start": 195,
+    "count": 1
+   },
+   "source": "data_111.py",
+   "stems": [
+    "u111_nakereba"
+   ]
+  },
+  {
+   "no": "112",
+   "order": 112,
+   "chapter": "第8章 たのむ・きんし",
+   "title_jp": "念の ために 〜",
+   "title_ro": "nen no tame ni 〜",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "役所"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 196,
+    "count": 1
+   },
+   "source": "data_112.py",
+   "stems": [
+    "p112_nennotameni"
+   ]
+  },
+  {
+   "no": "113",
+   "order": 113,
+   "chapter": "第9章 すすめる・あいさつ",
+   "title_jp": "〜を どうぞ",
+   "title_ro": "〜 wo douzo",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "買い物",
+    "食事",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 197,
+    "count": 1
+   },
+   "source": "data_113.py",
+   "stems": [
+    "p113_wodouzo"
+   ]
+  },
+  {
+   "no": "114",
+   "order": 114,
+   "chapter": "第9章 すすめる・あいさつ",
+   "title_jp": "どうぞ 〜して ください",
+   "title_ro": "douzo 〜 shite kudasai",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "仕事",
+    "買い物"
+   ],
+   "prereq": [
+    "113"
+   ],
+   "pages": {
+    "start": 198,
+    "count": 1
+   },
+   "source": "data_114.py",
+   "stems": [
+    "p114_douzoshite"
+   ]
+  },
+  {
+   "no": "115",
+   "order": 115,
+   "chapter": "第9章 すすめる・あいさつ",
+   "title_jp": "どうも 〜",
+   "title_ro": "doumo 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [
+    "113"
+   ],
+   "pages": {
+    "start": 199,
+    "count": 1
+   },
+   "source": "data_115.py",
+   "stems": [
+    "p115_doumo"
+   ]
+  },
+  {
+   "no": "116",
+   "order": 116,
+   "chapter": "第9章 すすめる・あいさつ",
+   "title_jp": "また 〜",
+   "title_ro": "mata 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "仕事"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 200,
+    "count": 1
+   },
+   "source": "data_116.py",
+   "stems": [
+    "p116_mata"
+   ]
+  },
+  {
+   "no": "117",
+   "order": 117,
+   "chapter": "第10章 ていどの ことば",
+   "title_jp": "あまり 〜ないです",
+   "title_ro": "amari 〜 nai desu",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "食事",
+    "友だち"
+   ],
+   "prereq": [
+    "69"
+   ],
+   "pages": {
+    "start": 201,
+    "count": 1
+   },
+   "source": "data_117.py",
+   "stems": [
+    "p117_amari"
+   ]
+  },
+  {
+   "no": "118",
+   "order": 118,
+   "chapter": "第10章 ていどの ことば",
+   "title_jp": "それほど 〜ないです",
+   "title_ro": "sorehodo 〜 nai desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "117"
+   ],
+   "pages": {
+    "start": 202,
+    "count": 1
+   },
+   "source": "data_118.py",
+   "stems": [
+    "p118_sorehodo"
+   ]
+  },
+  {
+   "no": "119",
+   "order": 119,
+   "chapter": "第10章 ていどの ことば",
+   "title_jp": "よく 〜（ていど）",
+   "title_ro": "yoku 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "学校",
+    "仕事"
+   ],
+   "prereq": [
+    "69"
+   ],
+   "pages": {
+    "start": 203,
+    "count": 1
+   },
+   "source": "data_119.py",
+   "stems": [
+    "p119_yoku_teido"
+   ]
+  },
+  {
+   "no": "120",
+   "order": 120,
+   "chapter": "第10章 ていどの ことば",
+   "title_jp": "まったく 〜ないです",
+   "title_ro": "mattaku 〜 nai desu",
+   "level": "N4",
+   "jft_basic": false,
+   "scenes": [
+    "友だち"
+   ],
+   "prereq": [
+    "117"
+   ],
+   "pages": {
+    "start": 204,
+    "count": 1
+   },
+   "source": "data_120.py",
+   "stems": [
+    "p120_mattaku"
+   ]
+  },
+  {
+   "no": "121",
+   "order": 121,
+   "chapter": "第10章 ていどの ことば",
+   "title_jp": "とても 〜",
+   "title_ro": "totemo 〜",
+   "level": "N5",
+   "jft_basic": true,
+   "scenes": [
+    "友だち",
+    "買い物"
+   ],
+   "prereq": [
+    "117",
+    "120"
+   ],
+   "pages": {
+    "start": 205,
+    "count": 1
+   },
+   "source": "data_121.py",
+   "stems": [
+    "p121_totemo"
+   ]
+  },
+  {
+   "no": "122",
+   "order": 122,
+   "chapter": "第11章 敬語",
+   "title_jp": "尊敬語（お〜に なります）",
+   "title_ro": "sonkeigo",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [
+    "68"
+   ],
+   "pages": {
+    "start": 206,
+    "count": 1
+   },
+   "source": "data_122.py",
+   "stems": [
+    "u122_sonkei"
+   ]
+  },
+  {
+   "no": "123",
+   "order": 123,
+   "chapter": "第11章 敬語",
+   "title_jp": "謙譲語（お〜します）",
+   "title_ro": "kenjougo",
+   "level": "N4",
+   "jft_basic": true,
+   "scenes": [
+    "面接",
+    "仕事"
+   ],
+   "prereq": [
+    "10",
+    "122"
+   ],
+   "pages": {
+    "start": 207,
+    "count": 1
+   },
+   "source": "data_123.py",
+   "stems": [
+    "u123_kenjou"
+   ]
+  },
+  {
+   "no": "124",
+   "order": 124,
+   "chapter": "巻末",
+   "title_jp": "JLPT・JFT-Basic の 受け方",
+   "title_ro": "JLPT",
+   "level": "GUIDE",
+   "jft_basic": false,
+   "scenes": [
+    "学校"
+   ],
+   "prereq": [],
+   "pages": {
+    "start": 208,
+    "count": 1
+   },
+   "source": "data_124.py",
+   "stems": [
+    "u124_shiken"
+   ]
+  }
+ ]
+}
