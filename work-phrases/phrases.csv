@@ -1,0 +1,101 @@
+﻿id,jp,kana,en,group,role,audio
+1,これをお願いします。,これを おねがいします。,Please take care of this.,1,give,audio/001.mp3
+2,明日の準備をしておいてください。,あしたの じゅんびを しておいてください。,Please make preparations for tomorrow in advance.,1,give,audio/002.mp3
+3,掃除を手伝ってください。,そうじを てつだってください。,Please help with the cleaning.,1,give,audio/003.mp3
+4,ここに置いてください。,ここに おいてください。,Please put it here.,1,give,audio/004.mp3
+5,これを田中さんに渡してください。,これを たなかさんに わたしてください。,Please give this to Tanaka.,1,give,audio/005.mp3
+6,こちらに来てください。,こちらに きてください。,Please come here.,1,give,audio/006.mp3
+7,ここで待っていてください。,ここで まっていてください。,Please wait here.,1,give,audio/007.mp3
+8,台車を持ってきてください。,だいしゃを もってきてください。,Please bring the cart.,1,give,audio/008.mp3
+9,道具を元の場所に戻してください。,どうぐを もとの ばしょに もどしてください。,Please put the tools back where they belong.,1,give,audio/009.mp3
+10,終わったら教えてください。,おわったら おしえてください。,Please let me know when you have finished.,1,give,audio/010.mp3
+11,先に掃除をしてください。,さきに そうじを してください。,Please do the cleaning first.,2,give,audio/011.mp3
+12,掃除をしてから、ごみを捨ててください。,そうじを してから、ごみを すててください。,"Please do the cleaning, then throw away the rubbish.",2,give,audio/012.mp3
+13,作業の前に、道具を確認してください。,さぎょうの まえに、どうぐを かくにんしてください。,Please check the tools before starting work.,2,give,audio/013.mp3
+14,3時までに終わらせてください。,さんじまでに おわらせてください。,Please finish by three o'clock.,2,give,audio/014.mp3
+15,9時になったら始めてください。,くじに なったら はじめてください。,Please start at nine o'clock.,2,give,audio/015.mp3
+16,これを優先してください。,これを ゆうせんしてください。,Please give this priority.,2,give,audio/016.mp3
+17,急がなくていいので、正確にお願いします。,いそがなくて いいので、せいかくに おねがいします。,You do not need to rush. Please do it accurately.,2,give,audio/017.mp3
+18,今日はここまでにしましょう。,きょうは ここまでに しましょう。,Let us stop here for today.,2,give,audio/018.mp3
+19,点検が終わるまで待ってください。,てんけんが おわるまで まってください。,Please wait until the inspection is finished.,2,give,audio/019.mp3
+20,休憩の後で続きをお願いします。,きゅうけいの あとで つづきを おねがいします。,Please continue after the break.,2,give,audio/020.mp3
+21,まず、私がやってみます。,まず、わたしが やってみます。,"First, I will show you how to do it.",3,give,audio/021.mp3
+22,私と一緒にやってみましょう。,わたしと いっしょに やってみましょう。,Let us try it together.,3,give,audio/022.mp3
+23,同じようにやってみてください。,おなじように やってみてください。,Please try doing it the same way.,3,give,audio/023.mp3
+24,ここまで、わかりますか。,ここまで、わかりますか。,Do you understand so far?,3,give,audio/024.mp3
+25,わからないところはありますか。,わからない ところは ありますか。,Is there anything you do not understand?,3,give,audio/025.mp3
+26,もう一度説明しましょうか。,もういちど せつめいしましょうか。,Would you like me to explain it again?,3,give,audio/026.mp3
+27,次に何をするか、教えてください。,つぎに なにを するか、おしえてください。,Please tell me what you will do next.,3,give,audio/027.mp3
+28,このやり方を覚えておいてください。,この やりかたを おぼえておいてください。,Please remember how to do this.,3,give,audio/028.mp3
+29,わからないときは、すぐに聞いてください。,わからない ときは、すぐに きいてください。,Please ask right away if you do not understand.,3,give,audio/029.mp3
+30,自分で判断する前に、確認してください。,じぶんで はんだんする まえに、かくにんしてください。,Please check with someone before deciding on your own.,3,give,audio/030.mp3
+31,今、どこまで終わっていますか。,いま、どこまで おわっていますか。,How much have you finished so far?,4,give,audio/031.mp3
+32,あと何分くらいかかりますか。,あと なんぷんくらい かかりますか。,About how many more minutes will it take?,4,give,audio/032.mp3
+33,何か困っていることはありますか。,なにか こまっている ことは ありますか。,Are you having any difficulties?,4,give,audio/033.mp3
+34,予定どおりに進んでいますか。,よていどおりに すすんでいますか。,Is everything going according to plan?,4,give,audio/034.mp3
+35,いったん作業を止めてください。,いったん さぎょうを とめてください。,Please stop the task for now.,4,give,audio/035.mp3
+36,ここをもう一度確認してください。,ここを もういちど かくにんしてください。,Please check this part again.,4,give,audio/036.mp3
+37,ここを直してください。,ここを なおしてください。,Please correct this part.,4,give,audio/037.mp3
+38,さっきの指示を変更します。,さっきの しじを へんこうします。,I am changing the instructions I gave earlier.,4,give,audio/038.mp3
+39,赤い箱ではなく、青い箱を使ってください。,あかい はこではなく、あおい はこを つかってください。,Please use the blue box instead of the red one.,4,give,audio/039.mp3
+40,これは後でいいので、先に片付けをお願いします。,これは あとで いいので、さきに かたづけを おねがいします。,This can wait. Please tidy up first.,4,give,audio/040.mp3
+41,危険を感じたら、すぐに作業を止めてください。,きけんを かんじたら、すぐに さぎょうを とめてください。,"If you feel there is danger, stop the task immediately.",5,give,audio/041.mp3
+42,一人で無理をしないでください。,ひとりで むりを しないでください。,Please do not push yourself to do it alone.,5,give,audio/042.mp3
+43,困ったら、すぐに声をかけてください。,こまったら、すぐに こえを かけてください。,"If you have a problem, please speak to me right away.",5,give,audio/043.mp3
+44,体調が悪いときは、教えてください。,たいちょうが わるい ときは、おしえてください。,Please let me know if you feel unwell.,5,give,audio/044.mp3
+45,何か変だと思ったら、報告してください。,なにか へんだと おもったら、ほうこくしてください。,Please report anything that seems unusual.,5,give,audio/045.mp3
+46,許可なく機械の操作をしないでください。,きょかなく きかいの そうさを しないでください。,Please do not operate the machine without permission.,5,give,audio/046.mp3
+47,使う前に、壊れていないか確認してください。,つかう まえに、こわれていないか かくにんしてください。,"Before using it, please check that it is not damaged.",5,give,audio/047.mp3
+48,このことを次の担当者に伝えてください。,この ことを つぎの たんとうしゃに つたえてください。,Please pass this information to the next person in charge.,5,give,audio/048.mp3
+49,変更があったら、田中さんにも連絡してください。,へんこうが あったら、たなかさんにも れんらくしてください。,"If anything changes, please also notify Tanaka.",5,give,audio/049.mp3
+50,この内容は、外の人には話さないでください。,この ないようは、そとの ひとには はなさないでください。,Please do not share this information with people outside the organization.,5,give,audio/050.mp3
+51,はい、わかりました。,はい、わかりました。,"Yes, I understand.",6,receive,audio/051.mp3
+52,承知しました。,しょうちしました。,Understood. (Polite response),6,receive,audio/052.mp3
+53,かしこまりました。,かしこまりました。,Certainly. (Very polite response),6,receive,audio/053.mp3
+54,今、確認します。,いま、かくにんします。,I will check now.,6,receive,audio/054.mp3
+55,すぐに取りかかります。,すぐに とりかかります。,I will get started right away.,6,receive,audio/055.mp3
+56,3時までですね。,さんじまでですね。,"By three o'clock, is that right?",6,receive,audio/056.mp3
+57,掃除をしてから、ごみを捨てます。,そうじを してから、ごみを すてます。,"I will do the cleaning, then throw away the rubbish.",6,receive,audio/057.mp3
+58,いつまでにすればいいですか。,いつまでに すれば いいですか。,When does it need to be done by?,6,receive,audio/058.mp3
+59,どちらを先にすればいいですか。,どちらを さきに すれば いいですか。,Which should I do first?,6,receive,audio/059.mp3
+60,次は何をすればいいですか。,つぎは なにを すれば いいですか。,What should I do next?,6,receive,audio/060.mp3
+61,すみません、よくわかりません。,すみません、よく わかりません。,"Sorry, I do not quite understand.",7,receive,audio/061.mp3
+62,もう一度お願いします。,もういちど おねがいします。,"Could you say that again, please?",7,receive,audio/062.mp3
+63,もう少しゆっくり話してください。,もうすこし ゆっくり はなしてください。,Please speak a little more slowly.,7,receive,audio/063.mp3
+64,「優先」は、どういう意味ですか。,「ゆうせん」は、どういう いみですか。,"What does ""yuusen"" mean?",7,receive,audio/064.mp3
+65,やり方を見せていただけますか。,やりかたを みせて いただけますか。,Could you show me how to do it?,7,receive,audio/065.mp3
+66,ここに書いていただけますか。,ここに かいて いただけますか。,"Could you write it here, please?",7,receive,audio/066.mp3
+67,先に掃除をするということですか。,さきに そうじを するという ことですか。,Do you mean I should do the cleaning first?,7,receive,audio/067.mp3
+68,これで合っていますか。,これで あっていますか。,Is this correct?,7,receive,audio/068.mp3
+69,窓を開けてもいいですか。,まどを あけても いいですか。,May I open the window?,7,receive,audio/069.mp3
+70,今日は掃除をしなくてもいいですか。,きょうは そうじを しなくても いいですか。,Is it okay if I do not do the cleaning today?,7,receive,audio/070.mp3
+71,掃除が終わりました。,そうじが おわりました。,I have finished the cleaning.,8,receive,audio/071.mp3
+72,今、荷物の確認をしています。,いま、にもつの かくにんを しています。,I am checking the goods now.,8,receive,audio/072.mp3
+73,1階の掃除までは終わっています。,いっかいの そうじまでは おわっています。,I have finished cleaning the first floor.,8,receive,audio/073.mp3
+74,まだ終わっていません。,まだ おわっていません。,I have not finished yet.,8,receive,audio/074.mp3
+75,あと10分くらいかかります。,あと じゅっぷんくらい かかります。,It will take about ten more minutes.,8,receive,audio/075.mp3
+76,予定どおりに進んでいます。,よていどおりに すすんでいます。,Everything is going according to plan.,8,receive,audio/076.mp3
+77,時間までに終わりそうにありません。,じかんまでに おわりそうに ありません。,It looks like I will not finish by the deadline.,8,receive,audio/077.mp3
+78,道具を確認しましたが、問題はありませんでした。,どうぐを かくにんしましたが、もんだいは ありませんでした。,I checked the tools and found no problems.,8,receive,audio/078.mp3
+79,機械に問題がありました。,きかいに もんだいが ありました。,There was a problem with the machine.,8,receive,audio/079.mp3
+80,片付けが終わりましたので、確認をお願いします。,かたづけが おわりましたので、かくにんを おねがいします。,I have finished tidying up. Please check it.,8,receive,audio/080.mp3
+81,手袋が足りません。,てぶくろが たりません。,There are not enough gloves.,9,receive,audio/081.mp3
+82,機械が動きません。,きかいが うごきません。,The machine is not working.,9,receive,audio/082.mp3
+83,すみません、箱の数を間違えました。,すみません、はこの かずを まちがえました。,I am sorry. I got the number of boxes wrong.,9,receive,audio/083.mp3
+84,申し訳ありません、すぐに直します。,もうしわけ ありません、すぐに なおします。,I am very sorry. I will correct it right away.,9,receive,audio/084.mp3
+85,危ないので、作業を止めました。,あぶないので、さぎょうを とめました。,I stopped the task because it was dangerous.,9,receive,audio/085.mp3
+86,一人では難しいので、手伝っていただけますか。,ひとりでは むずかしいので、てつだって いただけますか。,It is difficult to do alone. Could you help me?,9,receive,audio/086.mp3
+87,やり方はわかりましたが、まだ一人ではできません。,やりかたは わかりましたが、まだ ひとりでは できません。,"I understand how to do it, but I cannot do it alone yet.",9,receive,audio/087.mp3
+88,自分では判断できないので、確認をお願いします。,じぶんでは はんだんできないので、かくにんを おねがいします。,I cannot decide on my own. Please check this.,9,receive,audio/088.mp3
+89,もう一度入力してみましたが、うまくいきません。,もういちど にゅうりょくしてみましたが、うまく いきません。,"I tried entering it again, but it did not work.",9,receive,audio/089.mp3
+90,少し相談してもいいですか。,すこし そうだんしても いいですか。,May I ask you for some advice?,9,receive,audio/090.mp3
+91,鈴木さんから電話がありました。,すずきさんから でんわが ありました。,Suzuki called.,10,receive,audio/091.mp3
+92,田中さんに伝えておきます。,たなかさんに つたえておきます。,I will pass the message to Tanaka.,10,receive,audio/092.mp3
+93,佐藤さんに代わっていただけますか。,さとうさんに かわって いただけますか。,"Could you put Sato on the phone, please?",10,receive,audio/093.mp3
+94,会議の予定が変わりました。,かいぎの よていが かわりました。,The meeting schedule has changed.,10,receive,audio/094.mp3
+95,電車が遅れているため、15分ほど遅れます。,でんしゃが おくれている ため、じゅうごふんほど おくれます。,I will be about fifteen minutes late because the train is delayed.,10,receive,audio/095.mp3
+96,体調が悪いので、少し休んでもいいですか。,たいちょうが わるいので、すこし やすんでも いいですか。,I feel unwell. May I rest for a while?,10,receive,audio/096.mp3
+97,掃除は終わっていますが、片付けはまだです。,そうじは おわっていますが、かたづけは まだです。,"The cleaning is finished, but I have not tidied up yet.",10,receive,audio/097.mp3
+98,田中さんに引き継ぎました。,たなかさんに ひきつぎました。,I have handed it over to Tanaka.,10,receive,audio/098.mp3
+99,教えていただき、ありがとうございます。,おしえて いただき、ありがとうございます。,Thank you for showing me / explaining it.,10,receive,audio/099.mp3
+100,お先に失礼します。,おさきに しつれいします。,I am leaving now. (Said when leaving before others),10,receive,audio/100.mp3

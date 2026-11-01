@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "jp": "これをお願いします。",
+    "kana": "これを おねがいします。",
+    "en": "Please take care of this.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/001.mp3"
+  },
+  {
+    "id": 2,
+    "jp": "明日の準備をしておいてください。",
+    "kana": "あしたの じゅんびを しておいてください。",
+    "en": "Please make preparations for tomorrow in advance.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/002.mp3"
+  },
+  {
+    "id": 3,
+    "jp": "掃除を手伝ってください。",
+    "kana": "そうじを てつだってください。",
+    "en": "Please help with the cleaning.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/003.mp3"
+  },
+  {
+    "id": 4,
+    "jp": "ここに置いてください。",
+    "kana": "ここに おいてください。",
+    "en": "Please put it here.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/004.mp3"
+  },
+  {
+    "id": 5,
+    "jp": "これを田中さんに渡してください。",
+    "kana": "これを たなかさんに わたしてください。",
+    "en": "Please give this to Tanaka.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/005.mp3"
+  },
+  {
+    "id": 6,
+    "jp": "こちらに来てください。",
+    "kana": "こちらに きてください。",
+    "en": "Please come here.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/006.mp3"
+  },
+  {
+    "id": 7,
+    "jp": "ここで待っていてください。",
+    "kana": "ここで まっていてください。",
+    "en": "Please wait here.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/007.mp3"
+  },
+  {
+    "id": 8,
+    "jp": "台車を持ってきてください。",
+    "kana": "だいしゃを もってきてください。",
+    "en": "Please bring the cart.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/008.mp3"
+  },
+  {
+    "id": 9,
+    "jp": "道具を元の場所に戻してください。",
+    "kana": "どうぐを もとの ばしょに もどしてください。",
+    "en": "Please put the tools back where they belong.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/009.mp3"
+  },
+  {
+    "id": 10,
+    "jp": "終わったら教えてください。",
+    "kana": "おわったら おしえてください。",
+    "en": "Please let me know when you have finished.",
+    "group": 1,
+    "role": "give",
+    "audio": "audio/010.mp3"
+  },
+  {
+    "id": 11,
+    "jp": "先に掃除をしてください。",
+    "kana": "さきに そうじを してください。",
+    "en": "Please do the cleaning first.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/011.mp3"
+  },
+  {
+    "id": 12,
+    "jp": "掃除をしてから、ごみを捨ててください。",
+    "kana": "そうじを してから、ごみを すててください。",
+    "en": "Please do the cleaning, then throw away the rubbish.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/012.mp3"
+  },
+  {
+    "id": 13,
+    "jp": "作業の前に、道具を確認してください。",
+    "kana": "さぎょうの まえに、どうぐを かくにんしてください。",
+    "en": "Please check the tools before starting work.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/013.mp3"
+  },
+  {
+    "id": 14,
+    "jp": "3時までに終わらせてください。",
+    "kana": "さんじまでに おわらせてください。",
+    "en": "Please finish by three o'clock.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/014.mp3"
+  },
+  {
+    "id": 15,
+    "jp": "9時になったら始めてください。",
+    "kana": "くじに なったら はじめてください。",
+    "en": "Please start at nine o'clock.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/015.mp3"
+  },
+  {
+    "id": 16,
+    "jp": "これを優先してください。",
+    "kana": "これを ゆうせんしてください。",
+    "en": "Please give this priority.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/016.mp3"
+  },
+  {
+    "id": 17,
+    "jp": "急がなくていいので、正確にお願いします。",
+    "kana": "いそがなくて いいので、せいかくに おねがいします。",
+    "en": "You do not need to rush. Please do it accurately.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/017.mp3"
+  },
+  {
+    "id": 18,
+    "jp": "今日はここまでにしましょう。",
+    "kana": "きょうは ここまでに しましょう。",
+    "en": "Let us stop here for today.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/018.mp3"
+  },
+  {
+    "id": 19,
+    "jp": "点検が終わるまで待ってください。",
+    "kana": "てんけんが おわるまで まってください。",
+    "en": "Please wait until the inspection is finished.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/019.mp3"
+  },
+  {
+    "id": 20,
+    "jp": "休憩の後で続きをお願いします。",
+    "kana": "きゅうけいの あとで つづきを おねがいします。",
+    "en": "Please continue after the break.",
+    "group": 2,
+    "role": "give",
+    "audio": "audio/020.mp3"
+  },
+  {
+    "id": 21,
+    "jp": "まず、私がやってみます。",
+    "kana": "まず、わたしが やってみます。",
+    "en": "First, I will show you how to do it.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/021.mp3"
+  },
+  {
+    "id": 22,
+    "jp": "私と一緒にやってみましょう。",
+    "kana": "わたしと いっしょに やってみましょう。",
+    "en": "Let us try it together.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/022.mp3"
+  },
+  {
+    "id": 23,
+    "jp": "同じようにやってみてください。",
+    "kana": "おなじように やってみてください。",
+    "en": "Please try doing it the same way.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/023.mp3"
+  },
+  {
+    "id": 24,
+    "jp": "ここまで、わかりますか。",
+    "kana": "ここまで、わかりますか。",
+    "en": "Do you understand so far?",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/024.mp3"
+  },
+  {
+    "id": 25,
+    "jp": "わからないところはありますか。",
+    "kana": "わからない ところは ありますか。",
+    "en": "Is there anything you do not understand?",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/025.mp3"
+  },
+  {
+    "id": 26,
+    "jp": "もう一度説明しましょうか。",
+    "kana": "もういちど せつめいしましょうか。",
+    "en": "Would you like me to explain it again?",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/026.mp3"
+  },
+  {
+    "id": 27,
+    "jp": "次に何をするか、教えてください。",
+    "kana": "つぎに なにを するか、おしえてください。",
+    "en": "Please tell me what you will do next.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/027.mp3"
+  },
+  {
+    "id": 28,
+    "jp": "このやり方を覚えておいてください。",
+    "kana": "この やりかたを おぼえておいてください。",
+    "en": "Please remember how to do this.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/028.mp3"
+  },
+  {
+    "id": 29,
+    "jp": "わからないときは、すぐに聞いてください。",
+    "kana": "わからない ときは、すぐに きいてください。",
+    "en": "Please ask right away if you do not understand.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/029.mp3"
+  },
+  {
+    "id": 30,
+    "jp": "自分で判断する前に、確認してください。",
+    "kana": "じぶんで はんだんする まえに、かくにんしてください。",
+    "en": "Please check with someone before deciding on your own.",
+    "group": 3,
+    "role": "give",
+    "audio": "audio/030.mp3"
+  },
+  {
+    "id": 31,
+    "jp": "今、どこまで終わっていますか。",
+    "kana": "いま、どこまで おわっていますか。",
+    "en": "How much have you finished so far?",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/031.mp3"
+  },
+  {
+    "id": 32,
+    "jp": "あと何分くらいかかりますか。",
+    "kana": "あと なんぷんくらい かかりますか。",
+    "en": "About how many more minutes will it take?",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/032.mp3"
+  },
+  {
+    "id": 33,
+    "jp": "何か困っていることはありますか。",
+    "kana": "なにか こまっている ことは ありますか。",
+    "en": "Are you having any difficulties?",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/033.mp3"
+  },
+  {
+    "id": 34,
+    "jp": "予定どおりに進んでいますか。",
+    "kana": "よていどおりに すすんでいますか。",
+    "en": "Is everything going according to plan?",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/034.mp3"
+  },
+  {
+    "id": 35,
+    "jp": "いったん作業を止めてください。",
+    "kana": "いったん さぎょうを とめてください。",
+    "en": "Please stop the task for now.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/035.mp3"
+  },
+  {
+    "id": 36,
+    "jp": "ここをもう一度確認してください。",
+    "kana": "ここを もういちど かくにんしてください。",
+    "en": "Please check this part again.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/036.mp3"
+  },
+  {
+    "id": 37,
+    "jp": "ここを直してください。",
+    "kana": "ここを なおしてください。",
+    "en": "Please correct this part.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/037.mp3"
+  },
+  {
+    "id": 38,
+    "jp": "さっきの指示を変更します。",
+    "kana": "さっきの しじを へんこうします。",
+    "en": "I am changing the instructions I gave earlier.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/038.mp3"
+  },
+  {
+    "id": 39,
+    "jp": "赤い箱ではなく、青い箱を使ってください。",
+    "kana": "あかい はこではなく、あおい はこを つかってください。",
+    "en": "Please use the blue box instead of the red one.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/039.mp3"
+  },
+  {
+    "id": 40,
+    "jp": "これは後でいいので、先に片付けをお願いします。",
+    "kana": "これは あとで いいので、さきに かたづけを おねがいします。",
+    "en": "This can wait. Please tidy up first.",
+    "group": 4,
+    "role": "give",
+    "audio": "audio/040.mp3"
+  },
+  {
+    "id": 41,
+    "jp": "危険を感じたら、すぐに作業を止めてください。",
+    "kana": "きけんを かんじたら、すぐに さぎょうを とめてください。",
+    "en": "If you feel there is danger, stop the task immediately.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/041.mp3"
+  },
+  {
+    "id": 42,
+    "jp": "一人で無理をしないでください。",
+    "kana": "ひとりで むりを しないでください。",
+    "en": "Please do not push yourself to do it alone.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/042.mp3"
+  },
+  {
+    "id": 43,
+    "jp": "困ったら、すぐに声をかけてください。",
+    "kana": "こまったら、すぐに こえを かけてください。",
+    "en": "If you have a problem, please speak to me right away.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/043.mp3"
+  },
+  {
+    "id": 44,
+    "jp": "体調が悪いときは、教えてください。",
+    "kana": "たいちょうが わるい ときは、おしえてください。",
+    "en": "Please let me know if you feel unwell.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/044.mp3"
+  },
+  {
+    "id": 45,
+    "jp": "何か変だと思ったら、報告してください。",
+    "kana": "なにか へんだと おもったら、ほうこくしてください。",
+    "en": "Please report anything that seems unusual.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/045.mp3"
+  },
+  {
+    "id": 46,
+    "jp": "許可なく機械の操作をしないでください。",
+    "kana": "きょかなく きかいの そうさを しないでください。",
+    "en": "Please do not operate the machine without permission.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/046.mp3"
+  },
+  {
+    "id": 47,
+    "jp": "使う前に、壊れていないか確認してください。",
+    "kana": "つかう まえに、こわれていないか かくにんしてください。",
+    "en": "Before using it, please check that it is not damaged.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/047.mp3"
+  },
+  {
+    "id": 48,
+    "jp": "このことを次の担当者に伝えてください。",
+    "kana": "この ことを つぎの たんとうしゃに つたえてください。",
+    "en": "Please pass this information to the next person in charge.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/048.mp3"
+  },
+  {
+    "id": 49,
+    "jp": "変更があったら、田中さんにも連絡してください。",
+    "kana": "へんこうが あったら、たなかさんにも れんらくしてください。",
+    "en": "If anything changes, please also notify Tanaka.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/049.mp3"
+  },
+  {
+    "id": 50,
+    "jp": "この内容は、外の人には話さないでください。",
+    "kana": "この ないようは、そとの ひとには はなさないでください。",
+    "en": "Please do not share this information with people outside the organization.",
+    "group": 5,
+    "role": "give",
+    "audio": "audio/050.mp3"
+  },
+  {
+    "id": 51,
+    "jp": "はい、わかりました。",
+    "kana": "はい、わかりました。",
+    "en": "Yes, I understand.",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/051.mp3"
+  },
+  {
+    "id": 52,
+    "jp": "承知しました。",
+    "kana": "しょうちしました。",
+    "en": "Understood. (Polite response)",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/052.mp3"
+  },
+  {
+    "id": 53,
+    "jp": "かしこまりました。",
+    "kana": "かしこまりました。",
+    "en": "Certainly. (Very polite response)",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/053.mp3"
+  },
+  {
+    "id": 54,
+    "jp": "今、確認します。",
+    "kana": "いま、かくにんします。",
+    "en": "I will check now.",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/054.mp3"
+  },
+  {
+    "id": 55,
+    "jp": "すぐに取りかかります。",
+    "kana": "すぐに とりかかります。",
+    "en": "I will get started right away.",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/055.mp3"
+  },
+  {
+    "id": 56,
+    "jp": "3時までですね。",
+    "kana": "さんじまでですね。",
+    "en": "By three o'clock, is that right?",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/056.mp3"
+  },
+  {
+    "id": 57,
+    "jp": "掃除をしてから、ごみを捨てます。",
+    "kana": "そうじを してから、ごみを すてます。",
+    "en": "I will do the cleaning, then throw away the rubbish.",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/057.mp3"
+  },
+  {
+    "id": 58,
+    "jp": "いつまでにすればいいですか。",
+    "kana": "いつまでに すれば いいですか。",
+    "en": "When does it need to be done by?",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/058.mp3"
+  },
+  {
+    "id": 59,
+    "jp": "どちらを先にすればいいですか。",
+    "kana": "どちらを さきに すれば いいですか。",
+    "en": "Which should I do first?",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/059.mp3"
+  },
+  {
+    "id": 60,
+    "jp": "次は何をすればいいですか。",
+    "kana": "つぎは なにを すれば いいですか。",
+    "en": "What should I do next?",
+    "group": 6,
+    "role": "receive",
+    "audio": "audio/060.mp3"
+  },
+  {
+    "id": 61,
+    "jp": "すみません、よくわかりません。",
+    "kana": "すみません、よく わかりません。",
+    "en": "Sorry, I do not quite understand.",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/061.mp3"
+  },
+  {
+    "id": 62,
+    "jp": "もう一度お願いします。",
+    "kana": "もういちど おねがいします。",
+    "en": "Could you say that again, please?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/062.mp3"
+  },
+  {
+    "id": 63,
+    "jp": "もう少しゆっくり話してください。",
+    "kana": "もうすこし ゆっくり はなしてください。",
+    "en": "Please speak a little more slowly.",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/063.mp3"
+  },
+  {
+    "id": 64,
+    "jp": "「優先」は、どういう意味ですか。",
+    "kana": "「ゆうせん」は、どういう いみですか。",
+    "en": "What does \"yuusen\" mean?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/064.mp3"
+  },
+  {
+    "id": 65,
+    "jp": "やり方を見せていただけますか。",
+    "kana": "やりかたを みせて いただけますか。",
+    "en": "Could you show me how to do it?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/065.mp3"
+  },
+  {
+    "id": 66,
+    "jp": "ここに書いていただけますか。",
+    "kana": "ここに かいて いただけますか。",
+    "en": "Could you write it here, please?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/066.mp3"
+  },
+  {
+    "id": 67,
+    "jp": "先に掃除をするということですか。",
+    "kana": "さきに そうじを するという ことですか。",
+    "en": "Do you mean I should do the cleaning first?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/067.mp3"
+  },
+  {
+    "id": 68,
+    "jp": "これで合っていますか。",
+    "kana": "これで あっていますか。",
+    "en": "Is this correct?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/068.mp3"
+  },
+  {
+    "id": 69,
+    "jp": "窓を開けてもいいですか。",
+    "kana": "まどを あけても いいですか。",
+    "en": "May I open the window?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/069.mp3"
+  },
+  {
+    "id": 70,
+    "jp": "今日は掃除をしなくてもいいですか。",
+    "kana": "きょうは そうじを しなくても いいですか。",
+    "en": "Is it okay if I do not do the cleaning today?",
+    "group": 7,
+    "role": "receive",
+    "audio": "audio/070.mp3"
+  },
+  {
+    "id": 71,
+    "jp": "掃除が終わりました。",
+    "kana": "そうじが おわりました。",
+    "en": "I have finished the cleaning.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/071.mp3"
+  },
+  {
+    "id": 72,
+    "jp": "今、荷物の確認をしています。",
+    "kana": "いま、にもつの かくにんを しています。",
+    "en": "I am checking the goods now.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/072.mp3"
+  },
+  {
+    "id": 73,
+    "jp": "1階の掃除までは終わっています。",
+    "kana": "いっかいの そうじまでは おわっています。",
+    "en": "I have finished cleaning the first floor.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/073.mp3"
+  },
+  {
+    "id": 74,
+    "jp": "まだ終わっていません。",
+    "kana": "まだ おわっていません。",
+    "en": "I have not finished yet.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/074.mp3"
+  },
+  {
+    "id": 75,
+    "jp": "あと10分くらいかかります。",
+    "kana": "あと じゅっぷんくらい かかります。",
+    "en": "It will take about ten more minutes.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/075.mp3"
+  },
+  {
+    "id": 76,
+    "jp": "予定どおりに進んでいます。",
+    "kana": "よていどおりに すすんでいます。",
+    "en": "Everything is going according to plan.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/076.mp3"
+  },
+  {
+    "id": 77,
+    "jp": "時間までに終わりそうにありません。",
+    "kana": "じかんまでに おわりそうに ありません。",
+    "en": "It looks like I will not finish by the deadline.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/077.mp3"
+  },
+  {
+    "id": 78,
+    "jp": "道具を確認しましたが、問題はありませんでした。",
+    "kana": "どうぐを かくにんしましたが、もんだいは ありませんでした。",
+    "en": "I checked the tools and found no problems.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/078.mp3"
+  },
+  {
+    "id": 79,
+    "jp": "機械に問題がありました。",
+    "kana": "きかいに もんだいが ありました。",
+    "en": "There was a problem with the machine.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/079.mp3"
+  },
+  {
+    "id": 80,
+    "jp": "片付けが終わりましたので、確認をお願いします。",
+    "kana": "かたづけが おわりましたので、かくにんを おねがいします。",
+    "en": "I have finished tidying up. Please check it.",
+    "group": 8,
+    "role": "receive",
+    "audio": "audio/080.mp3"
+  },
+  {
+    "id": 81,
+    "jp": "手袋が足りません。",
+    "kana": "てぶくろが たりません。",
+    "en": "There are not enough gloves.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/081.mp3"
+  },
+  {
+    "id": 82,
+    "jp": "機械が動きません。",
+    "kana": "きかいが うごきません。",
+    "en": "The machine is not working.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/082.mp3"
+  },
+  {
+    "id": 83,
+    "jp": "すみません、箱の数を間違えました。",
+    "kana": "すみません、はこの かずを まちがえました。",
+    "en": "I am sorry. I got the number of boxes wrong.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/083.mp3"
+  },
+  {
+    "id": 84,
+    "jp": "申し訳ありません、すぐに直します。",
+    "kana": "もうしわけ ありません、すぐに なおします。",
+    "en": "I am very sorry. I will correct it right away.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/084.mp3"
+  },
+  {
+    "id": 85,
+    "jp": "危ないので、作業を止めました。",
+    "kana": "あぶないので、さぎょうを とめました。",
+    "en": "I stopped the task because it was dangerous.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/085.mp3"
+  },
+  {
+    "id": 86,
+    "jp": "一人では難しいので、手伝っていただけますか。",
+    "kana": "ひとりでは むずかしいので、てつだって いただけますか。",
+    "en": "It is difficult to do alone. Could you help me?",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/086.mp3"
+  },
+  {
+    "id": 87,
+    "jp": "やり方はわかりましたが、まだ一人ではできません。",
+    "kana": "やりかたは わかりましたが、まだ ひとりでは できません。",
+    "en": "I understand how to do it, but I cannot do it alone yet.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/087.mp3"
+  },
+  {
+    "id": 88,
+    "jp": "自分では判断できないので、確認をお願いします。",
+    "kana": "じぶんでは はんだんできないので、かくにんを おねがいします。",
+    "en": "I cannot decide on my own. Please check this.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/088.mp3"
+  },
+  {
+    "id": 89,
+    "jp": "もう一度入力してみましたが、うまくいきません。",
+    "kana": "もういちど にゅうりょくしてみましたが、うまく いきません。",
+    "en": "I tried entering it again, but it did not work.",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/089.mp3"
+  },
+  {
+    "id": 90,
+    "jp": "少し相談してもいいですか。",
+    "kana": "すこし そうだんしても いいですか。",
+    "en": "May I ask you for some advice?",
+    "group": 9,
+    "role": "receive",
+    "audio": "audio/090.mp3"
+  },
+  {
+    "id": 91,
+    "jp": "鈴木さんから電話がありました。",
+    "kana": "すずきさんから でんわが ありました。",
+    "en": "Suzuki called.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/091.mp3"
+  },
+  {
+    "id": 92,
+    "jp": "田中さんに伝えておきます。",
+    "kana": "たなかさんに つたえておきます。",
+    "en": "I will pass the message to Tanaka.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/092.mp3"
+  },
+  {
+    "id": 93,
+    "jp": "佐藤さんに代わっていただけますか。",
+    "kana": "さとうさんに かわって いただけますか。",
+    "en": "Could you put Sato on the phone, please?",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/093.mp3"
+  },
+  {
+    "id": 94,
+    "jp": "会議の予定が変わりました。",
+    "kana": "かいぎの よていが かわりました。",
+    "en": "The meeting schedule has changed.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/094.mp3"
+  },
+  {
+    "id": 95,
+    "jp": "電車が遅れているため、15分ほど遅れます。",
+    "kana": "でんしゃが おくれている ため、じゅうごふんほど おくれます。",
+    "en": "I will be about fifteen minutes late because the train is delayed.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/095.mp3"
+  },
+  {
+    "id": 96,
+    "jp": "体調が悪いので、少し休んでもいいですか。",
+    "kana": "たいちょうが わるいので、すこし やすんでも いいですか。",
+    "en": "I feel unwell. May I rest for a while?",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/096.mp3"
+  },
+  {
+    "id": 97,
+    "jp": "掃除は終わっていますが、片付けはまだです。",
+    "kana": "そうじは おわっていますが、かたづけは まだです。",
+    "en": "The cleaning is finished, but I have not tidied up yet.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/097.mp3"
+  },
+  {
+    "id": 98,
+    "jp": "田中さんに引き継ぎました。",
+    "kana": "たなかさんに ひきつぎました。",
+    "en": "I have handed it over to Tanaka.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/098.mp3"
+  },
+  {
+    "id": 99,
+    "jp": "教えていただき、ありがとうございます。",
+    "kana": "おしえて いただき、ありがとうございます。",
+    "en": "Thank you for showing me / explaining it.",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/099.mp3"
+  },
+  {
+    "id": 100,
+    "jp": "お先に失礼します。",
+    "kana": "おさきに しつれいします。",
+    "en": "I am leaving now. (Said when leaving before others)",
+    "group": 10,
+    "role": "receive",
+    "audio": "audio/100.mp3"
+  }
+]
